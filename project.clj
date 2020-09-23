@@ -6,7 +6,6 @@
   :aot :all
   :dependencies [[org.clojure/clojure "1.10.2-alpha1"]
                  [kotyo/clj-rocksdb "0.1.6"]
-                ;  [byte-streams "0.2.2"] ;required for clj-leveldb to work https://github.com/ztellman/clj-tuple/issues/18
                  [io.replikativ/konserve "0.6.0-alpha1"]]
   :repl-options {:init-ns konserve-rocksdb.core}
   :plugins [[lein-cloverage "1.2.0"]]
